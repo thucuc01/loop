@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n=1;
+    while (n<=100) {
+        if(n%3==0 && n%5==0) {
+            document.write('fizzbuzz; ');
+            n++;
+        } else {
+            if (n%3==0) {
+                document.write('fizz;');
+                n++;
+            }else {
+                if (n%5==0) {
+                    document.write('buzz;');
+                    n++;
+                }
+            }
+        }
+        document.write(n +" ; ");
+        n++;
+    }
+
+</script>
+</body>
+</html>
